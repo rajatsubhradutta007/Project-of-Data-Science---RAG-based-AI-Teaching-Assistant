@@ -17,9 +17,14 @@ Read the joblib file and load it into the memory. Then create a relevant prompt 
 
 ----------------------------------------------------------------
 
-<h2><a id = ""author--contact></a>Author & Contact</h2>
+<h2><a id = "flowchart"></a>Flowchart</h2>
+![RAG Based AI Flowchart](images/RAG AI FLOWCHART.png)
+
+----------------------------------------------------------------
+
+<h2><a id = "author--contact"></a>Author & Contact</h2>
 
 **RAJAT SUBHRA DUTTA**
-Email : rajat.subhradutta.22@aot.edu.in
+
 
 
