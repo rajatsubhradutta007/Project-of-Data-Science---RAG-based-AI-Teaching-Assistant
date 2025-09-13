@@ -1,0 +1,824 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Hey guys, Avi here and welcome back to our Python development series."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 5.0,
+            "end": 10.0,
+            "text": " Now, we left off where we covered what strings are and how to add placeholders in strings."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 10.0,
+            "end": 15.0,
+            "text": " Today, we'll be tackling one of Python's first data structures, which are Python lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 15.0,
+            "end": 18.0,
+            "text": " So, first thing first, what is a list?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 18.0,
+            "end": 21.0,
+            "text": " Well, what do you think of when you hear the word list?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 21.0,
+            "end": 26.0,
+            "text": " It's a set of ordered items, they have an index, you know what each value is,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 26.0,
+            "end": 30.0,
+            "text": " and that's basically the case for a Python list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 30.0,
+            "end": 36.0,
+            "text": " It's a series of comma-separated values that allows us to access any item based on its index."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 36.0,
+            "end": 38.0,
+            "text": " Let's say I'm going shopping, okay?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 38.0,
+            "end": 40.0,
+            "text": " I want to create a shopping list in Python."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 40.0,
+            "end": 44.0,
+            "text": " I want to get apples, oranges, bananas, and cheese."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 44.0,
+            "end": 48.0,
+            "text": " Now, one way I could do this is by associating each item with a variable."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 48.0,
+            "end": 54.0,
+            "text": " I could say item1 is apples, item2 is oranges, item3 is bananas, item4 is cheese."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 54.0,
+            "end": 56.0,
+            "text": " Yes, that works."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 56.0,
+            "end": 61.0,
+            "text": " But if you think about it, you don't want to create tens or hundreds of variables because that's inefficient."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 61.0,
+            "end": 63.0,
+            "text": " Instead, we have lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 63.0,
+            "end": 65.0,
+            "text": " So, take a look."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 65.0,
+            "end": 68.0,
+            "text": " I have apples, oranges, bananas, and cheese in my list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 68.0,
+            "end": 70.0,
+            "text": " This is the syntax."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 70.0,
+            "end": 73.0,
+            "text": " You start with a square bracket, list your item separated by commas,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 73.0,
+            "end": 76.0,
+            "text": " and then close it with a square bracket."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 76.0,
+            "end": 82.0,
+            "text": " Yes, I could have done the variables, but instead, let's skip that and let's use a list instead."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 82.0,
+            "end": 87.0,
+            "text": " One key thing that you should remember about a list is that the indexing is off by one."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 87.0,
+            "end": 92.0,
+            "text": " What you might think of as the first item, which is apples, is actually index 0 in the list"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 92.0,
+            "end": 94.0,
+            "text": " because counting starts from 0."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 94.0,
+            "end": 99.0,
+            "text": " So, if I want the second item on the list, I'm not going to say list2, I'm going to say list1"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 99.0,
+            "end": 104.0,
+            "text": " because the second item on our list is actually at the first index position."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 104.0,
+            "end": 108.0,
+            "text": " So, let's go ahead and create a list and everything will make sense soon."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 108.0,
+            "end": 111.0,
+            "text": " I'm going to go ahead and call this shopping list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 111.0,
+            "end": 115.0,
+            "text": " Again, square brackets, every item separated by commas."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 115.0,
+            "end": 119.0,
+            "text": " So, these are the strings again, apples, oranges, bananas, and cheese."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 119.0,
+            "end": 122.0,
+            "text": " Okay, so now we have a shopping list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 122.0,
+            "end": 125.0,
+            "text": " If you go ahead and print this out, you'll notice that this is the array format"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 125.0,
+            "end": 128.0,
+            "text": " and every item is separated by commas."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 128.0,
+            "end": 130.0,
+            "text": " Now, how do we access the values?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 130.0,
+            "end": 133.0,
+            "text": " Well, we just discussed that the index is off by one."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 133.0,
+            "end": 136.0,
+            "text": " So, if I want the first item, I say shopping list 0."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 136.0,
+            "end": 138.0,
+            "text": " It's very straightforward."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " All I have to do is say shopping list and then in square brackets put in your index."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 142.0,
+            "end": 146.0,
+            "text": " So, I want the first item, I say shopping list 0, I get apples."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 146.0,
+            "end": 150.0,
+            "text": " I want the third item, I say shopping list 2, I get bananas."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 150.0,
+            "end": 154.0,
+            "text": " For the fourth item, I say shopping list 3, I get cheese."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 154.0,
+            "end": 157.0,
+            "text": " So, this is one way we can access items in a list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 157.0,
+            "end": 159.0,
+            "text": " There's also slicing in lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 159.0,
+            "end": 162.0,
+            "text": " I can say shopping list and then in brackets 0 to 2."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 162.0,
+            "end": 165.0,
+            "text": " And this will get me apples and oranges."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 165.0,
+            "end": 167.0,
+            "text": " It's very similar to what we discussed before."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 167.0,
+            "end": 173.0,
+            "text": " It takes the first parameter, which is 0, goes to 1 and then it doesn't count your end range."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 173.0,
+            "end": 178.0,
+            "text": " So, it says 0, 1, whoops, we don't count 2, it stops."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 178.0,
+            "end": 183.0,
+            "text": " If I want to get the first three items, I'll say shopping list in brackets 0, 3."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 183.0,
+            "end": 188.0,
+            "text": " It says 0, 1, 2 and then ignores our last value 3."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 188.0,
+            "end": 190.0,
+            "text": " So, that's how we access values in lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 190.0,
+            "end": 192.0,
+            "text": " Now, what if we want to update it?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 192.0,
+            "end": 195.0,
+            "text": " Say we're talking to our parents, we're talking to someone and they're like,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 195.0,
+            "end": 197.0,
+            "text": " oh, go ahead and get me blueberries as well."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 197.0,
+            "end": 201.0,
+            "text": " How do we add items to our list when we've already created it?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 201.0,
+            "end": 204.0,
+            "text": " Well, one nice thing about lists is that they're mutable."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 204.0,
+            "end": 210.0,
+            "text": " You can add objects, you can append, delete, do a lot of different methods with lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 210.0,
+            "end": 215.0,
+            "text": " So, what I'm going to do is add an item to our list and use the append function to do that."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 215.0,
+            "end": 219.0,
+            "text": " Shopping list.append and then in brackets, the string blueberries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 219.0,
+            "end": 224.0,
+            "text": " Now, if I print out shopping list, you're going to notice that blueberries has been appended"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 224.0,
+            "end": 228.0,
+            "text": " to the end of our shopping list, which is exactly what we wanted."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 228.0,
+            "end": 233.0,
+            "text": " But now, let's say, oh, we no longer need apples, we actually need cherries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 233.0,
+            "end": 236.0,
+            "text": " There's been a mass shortage of cherries, we want cherries now."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 236.0,
+            "end": 237.0,
+            "text": " How do we change that?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 237.0,
+            "end": 239.0,
+            "text": " Well, there's another way we can do this."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 239.0,
+            "end": 244.0,
+            "text": " We can go ahead and say shopping list 0 is equal to cherries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 244.0,
+            "end": 248.0,
+            "text": " So, the item at the first position of our list should be equal to cherries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 248.0,
+            "end": 253.0,
+            "text": " We're basically saying that whatever item exists at this position, update its value to cherries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 253.0,
+            "end": 258.0,
+            "text": " So, now when I print out shopping list, instead of apples as the first value,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 258.0,
+            "end": 262.0,
+            "text": " I now get cherries and then oranges, bananas, cheese, and blueberries."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 262.0,
+            "end": 269.0,
+            "text": " So, that's one way you can update values in an index and the append method allows us to add objects to our list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 269.0,
+            "end": 273.0,
+            "text": " Now, let's say, okay, we've done all this, but guess what?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 273.0,
+            "end": 276.0,
+            "text": " We no longer need oranges because no one likes oranges."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 276.0,
+            "end": 278.0,
+            "text": " How do we delete items in our list?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 278.0,
+            "end": 281.0,
+            "text": " Well, one way you can do this is by using the delete method."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 281.0,
+            "end": 285.0,
+            "text": " You say del, D-E-L, shopping list 1."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 285.0,
+            "end": 293.0,
+            "text": " And now when I say shopping list, I see that oranges has been removed and cherries, bananas, cheese, and blueberries gets printed out."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 293.0,
+            "end": 296.0,
+            "text": " All right, so what have we covered so far?"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 296.0,
+            "end": 301.0,
+            "text": " We've covered how to add to a list, how to create a list, and how to delete an item from a list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 301.0,
+            "end": 304.0,
+            "text": " Now, there's a few more cool things you can do with lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 304.0,
+            "end": 308.0,
+            "text": " Just like we learned with arithmetic operators, you can use the same thing for lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 308.0,
+            "end": 311.0,
+            "text": " You can add lists together, you can multiply lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 311.0,
+            "end": 313.0,
+            "text": " Let's go ahead and see how that works."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 313.0,
+            "end": 317.0,
+            "text": " First of all, let's see how many items are in my shopping list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 317.0,
+            "end": 319.0,
+            "text": " And I can do that using the len function."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 319.0,
+            "end": 323.0,
+            "text": " The len method returns how many items are in my list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 323.0,
+            "end": 326.0,
+            "text": " Okay, so there's four items in my list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 326.0,
+            "end": 327.0,
+            "text": " Now, let's say I have another list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 327.0,
+            "end": 330.0,
+            "text": " I'm going to call this shopping list 2."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 330.0,
+            "end": 333.0,
+            "text": " And this is going to have bread, jam, and peanut butter."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 333.0,
+            "end": 335.0,
+            "text": " I want to combine these two lists together."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 335.0,
+            "end": 339.0,
+            "text": " What I can do is say shopping list plus shopping list 2."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 339.0,
+            "end": 343.0,
+            "text": " You can add lists together to create one big list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 343.0,
+            "end": 346.0,
+            "text": " Another thing you can do is multiply a list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 346.0,
+            "end": 349.0,
+            "text": " You can say something like if you want to repeat values multiple times,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 349.0,
+            "end": 351.0,
+            "text": " you can say shopping list times 2."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 351.0,
+            "end": 354.0,
+            "text": " And that repeats the values in shopping list twice."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 354.0,
+            "end": 357.0,
+            "text": " So these are just some of the list operations that you can use."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 357.0,
+            "end": 359.0,
+            "text": " They're very basic and they're straightforward."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 359.0,
+            "end": 362.0,
+            "text": " You can join lists together, you can repeat a list."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 362.0,
+            "end": 365.0,
+            "text": " Two more functions I want to touch base on before I end this lecture,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 365.0,
+            "end": 367.0,
+            "text": " and that's max and min."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 367.0,
+            "end": 369.0,
+            "text": " Suppose we have a list of numbers."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 369.0,
+            "end": 371.0,
+            "text": " I'm going to call this list underscore num."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 371.0,
+            "end": 373.0,
+            "text": " And I'm going to populate it with some numbers."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 373.0,
+            "end": 376.0,
+            "text": " 1, 4, 7, 23, and 6."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 376.0,
+            "end": 380.0,
+            "text": " If I want to find the max of list num, the biggest number there,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 380.0,
+            "end": 383.0,
+            "text": " I can call the max function on our list num."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 383.0,
+            "end": 387.0,
+            "text": " And if I want to find the smallest value, I can say min list num."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 387.0,
+            "end": 388.0,
+            "text": " Awesome."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 388.0,
+            "end": 391.0,
+            "text": " So in this lecture, we touched base on lists."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 391.0,
+            "end": 395.0,
+            "text": " We covered what they are, how to create them, indexing, appending, deleting,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 395.0,
+            "end": 399.0,
+            "text": " list operations, and last but not least, the max and min functions."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 399.0,
+            "end": 402.0,
+            "text": " Now there's many, many more things that you can do with lists,"
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 402.0,
+            "end": 406.0,
+            "text": " but just as a quick introduction, I hope lists made sense to you."
+        },
+        {
+            "number": "5",
+            "title": "Lect",
+            "start": 406.0,
+            "end": 409.0,
+            "text": " Anyways, that's it for my side, and I'll see you in the next video."
+        }
+    ],
+    "text": " Hey guys, Avi here and welcome back to our Python development series. Now, we left off where we covered what strings are and how to add placeholders in strings. Today, we'll be tackling one of Python's first data structures, which are Python lists. So, first thing first, what is a list? Well, what do you think of when you hear the word list? It's a set of ordered items, they have an index, you know what each value is, and that's basically the case for a Python list. It's a series of comma-separated values that allows us to access any item based on its index. Let's say I'm going shopping, okay? I want to create a shopping list in Python. I want to get apples, oranges, bananas, and cheese. Now, one way I could do this is by associating each item with a variable. I could say item1 is apples, item2 is oranges, item3 is bananas, item4 is cheese. Yes, that works. But if you think about it, you don't want to create tens or hundreds of variables because that's inefficient. Instead, we have lists. So, take a look. I have apples, oranges, bananas, and cheese in my list. This is the syntax. You start with a square bracket, list your item separated by commas, and then close it with a square bracket. Yes, I could have done the variables, but instead, let's skip that and let's use a list instead. One key thing that you should remember about a list is that the indexing is off by one. What you might think of as the first item, which is apples, is actually index 0 in the list because counting starts from 0. So, if I want the second item on the list, I'm not going to say list2, I'm going to say list1 because the second item on our list is actually at the first index position. So, let's go ahead and create a list and everything will make sense soon. I'm going to go ahead and call this shopping list. Again, square brackets, every item separated by commas. So, these are the strings again, apples, oranges, bananas, and cheese. Okay, so now we have a shopping list. If you go ahead and print this out, you'll notice that this is the array format and every item is separated by commas. Now, how do we access the values? Well, we just discussed that the index is off by one. So, if I want the first item, I say shopping list 0. It's very straightforward. All I have to do is say shopping list and then in square brackets put in your index. So, I want the first item, I say shopping list 0, I get apples. I want the third item, I say shopping list 2, I get bananas. For the fourth item, I say shopping list 3, I get cheese. So, this is one way we can access items in a list. There's also slicing in lists. I can say shopping list and then in brackets 0 to 2. And this will get me apples and oranges. It's very similar to what we discussed before. It takes the first parameter, which is 0, goes to 1 and then it doesn't count your end range. So, it says 0, 1, whoops, we don't count 2, it stops. If I want to get the first three items, I'll say shopping list in brackets 0, 3. It says 0, 1, 2 and then ignores our last value 3. So, that's how we access values in lists. Now, what if we want to update it? Say we're talking to our parents, we're talking to someone and they're like, oh, go ahead and get me blueberries as well. How do we add items to our list when we've already created it? Well, one nice thing about lists is that they're mutable. You can add objects, you can append, delete, do a lot of different methods with lists. So, what I'm going to do is add an item to our list and use the append function to do that. Shopping list.append and then in brackets, the string blueberries. Now, if I print out shopping list, you're going to notice that blueberries has been appended to the end of our shopping list, which is exactly what we wanted. But now, let's say, oh, we no longer need apples, we actually need cherries. There's been a mass shortage of cherries, we want cherries now. How do we change that? Well, there's another way we can do this. We can go ahead and say shopping list 0 is equal to cherries. So, the item at the first position of our list should be equal to cherries. We're basically saying that whatever item exists at this position, update its value to cherries. So, now when I print out shopping list, instead of apples as the first value, I now get cherries and then oranges, bananas, cheese, and blueberries. So, that's one way you can update values in an index and the append method allows us to add objects to our list. Now, let's say, okay, we've done all this, but guess what? We no longer need oranges because no one likes oranges. How do we delete items in our list? Well, one way you can do this is by using the delete method. You say del, D-E-L, shopping list 1. And now when I say shopping list, I see that oranges has been removed and cherries, bananas, cheese, and blueberries gets printed out. All right, so what have we covered so far? We've covered how to add to a list, how to create a list, and how to delete an item from a list. Now, there's a few more cool things you can do with lists. Just like we learned with arithmetic operators, you can use the same thing for lists. You can add lists together, you can multiply lists. Let's go ahead and see how that works. First of all, let's see how many items are in my shopping list. And I can do that using the len function. The len method returns how many items are in my list. Okay, so there's four items in my list. Now, let's say I have another list. I'm going to call this shopping list 2. And this is going to have bread, jam, and peanut butter. I want to combine these two lists together. What I can do is say shopping list plus shopping list 2. You can add lists together to create one big list. Another thing you can do is multiply a list. You can say something like if you want to repeat values multiple times, you can say shopping list times 2. And that repeats the values in shopping list twice. So these are just some of the list operations that you can use. They're very basic and they're straightforward. You can join lists together, you can repeat a list. Two more functions I want to touch base on before I end this lecture, and that's max and min. Suppose we have a list of numbers. I'm going to call this list underscore num. And I'm going to populate it with some numbers. 1, 4, 7, 23, and 6. If I want to find the max of list num, the biggest number there, I can call the max function on our list num. And if I want to find the smallest value, I can say min list num. Awesome. So in this lecture, we touched base on lists. We covered what they are, how to create them, indexing, appending, deleting, list operations, and last but not least, the max and min functions. Now there's many, many more things that you can do with lists, but just as a quick introduction, I hope lists made sense to you. Anyways, that's it for my side, and I'll see you in the next video."
+}

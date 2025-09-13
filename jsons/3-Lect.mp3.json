@@ -1,0 +1,537 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Hey guys, Avi here, and welcome back to our Python programming series."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 5.0,
+            "end": 9.5,
+            "text": " In this video, we're going to be talking about arithmetic operators and strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 9.5,
+            "end": 14.0,
+            "text": " Arithmetic operators are probably already familiar to you from math class."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 14.0,
+            "end": 15.5,
+            "text": " They're quite straightforward."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 15.5,
+            "end": 20.5,
+            "text": " You have addition, subtraction, multiplication, division, and modulus."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 20.5,
+            "end": 26.0,
+            "text": " We all know what these operators are, but today we'll see how we can apply them in Python,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 26.0,
+            "end": 28.5,
+            "text": " especially when used with variables."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 28.5,
+            "end": 34.5,
+            "text": " Let's imagine a scenario where we have two friends, one age 12 and the other 18."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 34.5,
+            "end": 40.5,
+            "text": " We'll represent their ages with two variables, age1 set to 12 and age2 set to 18."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 40.5,
+            "end": 44.0,
+            "text": " We now have these two variables, and we'll see how to manipulate these values"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 44.0,
+            "end": 47.5,
+            "text": " using Python's arithmetic operators."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 47.5,
+            "end": 52.5,
+            "text": " Considering they are integers, we can apply Python's arithmetic operators to play around."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 52.5,
+            "end": 58.5,
+            "text": " For instance, to calculate the sum of their ages, we can write age1 plus age2,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 58.5,
+            "end": 61.0,
+            "text": " which gives us 30, 12 plus 18."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 61.0,
+            "end": 62.5,
+            "text": " That's addition."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 62.5,
+            "end": 65.0,
+            "text": " Now let's try subtraction."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 65.0,
+            "end": 68.5,
+            "text": " If we do age1 minus age2, we get negative 6."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 68.5,
+            "end": 70.0,
+            "text": " That's subtraction."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 70.0,
+            "end": 72.5,
+            "text": " Let's continue with the rest of the operators."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 72.5,
+            "end": 79.0,
+            "text": " For multiplication, we use the asterisk symbol, which is usually Shift-8 on keyboards."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 79.0,
+            "end": 83.0,
+            "text": " This symbol represents the multiplication in most programming languages,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 83.0,
+            "end": 89.5,
+            "text": " so executing age1 times age2 using the asterisk sign gives us 216."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 89.5,
+            "end": 91.5,
+            "text": " Next, let's do division."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 91.5,
+            "end": 98.0,
+            "text": " If we execute age1 divided by age2, where the division sign is the forward slash,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 98.0,
+            "end": 101.0,
+            "text": " we get approximately 0.67."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 101.0,
+            "end": 104.0,
+            "text": " Finally, let's discuss modulus."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 104.0,
+            "end": 108.5,
+            "text": " Modulus is a function that provides the remainder of a division operation."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 108.5,
+            "end": 113.0,
+            "text": " For example, we earlier divided age1 by age2 and got a decimal."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 113.0,
+            "end": 119.5,
+            "text": " However, if we're interested in the remainder and not the exact quotient, we can use modulus."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 119.5,
+            "end": 128.5,
+            "text": " Executing age2 percent age1, we get 6, and for age1 percent age2, we get 12."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 128.5,
+            "end": 136.0,
+            "text": " Therefore, when you divide age2 by age1, the remainder is 6, and vice versa, the remainder is 12."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 136.0,
+            "end": 141.5,
+            "text": " These arithmetic operations become especially useful when programming real-world applications."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 141.5,
+            "end": 148.0,
+            "text": " For instance, consider an application that calculates the total amount you have to pay after adding various costs,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 148.0,
+            "end": 152.0,
+            "text": " or an application that calculates the average rating from different user scores."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 152.0,
+            "end": 156.0,
+            "text": " Both these applications could use arithmetic operations."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 156.0,
+            "end": 160.5,
+            "text": " After understanding arithmetic operators, let's shift our attention to strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 160.5,
+            "end": 162.5,
+            "text": " We're already acquainted with strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 162.5,
+            "end": 166.5,
+            "text": " We've seen how to create sentences using print statements, like print hello world."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 166.5,
+            "end": 170.0,
+            "text": " The content inside those quotation marks are strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 170.0,
+            "end": 175.0,
+            "text": " Let's take an example where the string is, today was a beautiful day."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 175.0,
+            "end": 183.0,
+            "text": " Here, sent1 is a string, and the data type, just like age1 and age2 are integers, sent1 would be a string."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 183.0,
+            "end": 187.0,
+            "text": " Strings are text or characters enclosed within quotation marks."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 187.0,
+            "end": 193.0,
+            "text": " Similar to how we used arithmetic operators with integers, we can use some of them with strings as well."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 193.0,
+            "end": 199.0,
+            "text": " For instance, let's say we have a first name and a last name, and we want to concatenate them to form a full name."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 199.0,
+            "end": 200.5,
+            "text": " Let's try doing that."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 200.5,
+            "end": 207.0,
+            "text": " Assuming the first name is Avi and the last name is Jane, we want to concatenate these two to get the full name."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 207.0,
+            "end": 214.0,
+            "text": " Just like we did age1 plus age2 for integers, we can do first name plus last name for strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 214.0,
+            "end": 216.5,
+            "text": " The output will be Avi Jane."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 216.5,
+            "end": 222.0,
+            "text": " However, to make it look more natural, we might want to insert a space between the first and last name."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 222.0,
+            "end": 226.0,
+            "text": " We can accomplish this by adding a space character like this."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 226.0,
+            "end": 231.5,
+            "text": " First name plus, and then in quotation marks, a space plus last name."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 231.5,
+            "end": 234.0,
+            "text": " The output now is Avi Jane."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 234.0,
+            "end": 239.0,
+            "text": " While we can use the addition operator for string concatenation, subtraction doesn't apply to strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 239.0,
+            "end": 244.0,
+            "text": " If you try executing first name minus last name, you'll encounter an error."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 244.0,
+            "end": 249.0,
+            "text": " Although you can multiply a string by an integer, if you want to print high ten times,"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 249.0,
+            "end": 254.0,
+            "text": " you can execute high times ten, which will repeat high ten times."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 254.0,
+            "end": 262.0,
+            "text": " So, in conclusion, we can use addition for concatenation and multiplication for repetition with strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 262.0,
+            "end": 267.0,
+            "text": " Division and modulus and subtraction are not applicable with strings."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 267.0,
+            "end": 272.0,
+            "text": " I'll wrap this up with an important feature of Python, which is called slicing."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 272.0,
+            "end": 275.5,
+            "text": " Let's consider the sentence, Avi was playing basketball."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 275.5,
+            "end": 279.0,
+            "text": " Here, we're interested only in the name Avi."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 279.0,
+            "end": 284.5,
+            "text": " Each character in a string in Python has an index, which begins from zero."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 284.5,
+            "end": 289.5,
+            "text": " So, A is at index zero, B is at index one, and so on."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 289.5,
+            "end": 297.5,
+            "text": " If we want to get the character at index zero, we do sentence and then in square brackets, zero, which returns A."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 297.5,
+            "end": 300.5,
+            "text": " To get a range of characters, we can use slicing."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 300.5,
+            "end": 308.0,
+            "text": " To get Avi, we'll use sentence and then in square brackets, you specify a range by specifying the initial index"
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 308.0,
+            "end": 312.0,
+            "text": " and then the end index exclusively."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 312.0,
+            "end": 314.5,
+            "text": " And in between the two indexes, there's a colon."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 314.5,
+            "end": 318.0,
+            "text": " So, sentence, zero, colon, three."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 318.0,
+            "end": 326.5,
+            "text": " But you might wonder why the index here is three when Avi only has three characters, i.e. indices from zero, one, and two."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 326.5,
+            "end": 330.5,
+            "text": " In Python, the last index in the slice is exclusive."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 330.5,
+            "end": 336.5,
+            "text": " So, sentence, zero to three, actually gives us the characters from indices zero to two."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 336.5,
+            "end": 340.5,
+            "text": " That's it for arithmetic operators and strings today."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 340.5,
+            "end": 348.0,
+            "text": " Today, we covered how to use arithmetic operators, apply them to integers and strings, and also introduce slicing in Python."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 348.0,
+            "end": 353.0,
+            "text": " These concepts are fundamental and will be incredibly handy as we move forward in our Python journey."
+        },
+        {
+            "number": "3",
+            "title": "Lect",
+            "start": 353.0,
+            "end": 356.0,
+            "text": " Thanks so much for listening, guys, and I'll see you in the next video."
+        }
+    ],
+    "text": " Hey guys, Avi here, and welcome back to our Python programming series. In this video, we're going to be talking about arithmetic operators and strings. Arithmetic operators are probably already familiar to you from math class. They're quite straightforward. You have addition, subtraction, multiplication, division, and modulus. We all know what these operators are, but today we'll see how we can apply them in Python, especially when used with variables. Let's imagine a scenario where we have two friends, one age 12 and the other 18. We'll represent their ages with two variables, age1 set to 12 and age2 set to 18. We now have these two variables, and we'll see how to manipulate these values using Python's arithmetic operators. Considering they are integers, we can apply Python's arithmetic operators to play around. For instance, to calculate the sum of their ages, we can write age1 plus age2, which gives us 30, 12 plus 18. That's addition. Now let's try subtraction. If we do age1 minus age2, we get negative 6. That's subtraction. Let's continue with the rest of the operators. For multiplication, we use the asterisk symbol, which is usually Shift-8 on keyboards. This symbol represents the multiplication in most programming languages, so executing age1 times age2 using the asterisk sign gives us 216. Next, let's do division. If we execute age1 divided by age2, where the division sign is the forward slash, we get approximately 0.67. Finally, let's discuss modulus. Modulus is a function that provides the remainder of a division operation. For example, we earlier divided age1 by age2 and got a decimal. However, if we're interested in the remainder and not the exact quotient, we can use modulus. Executing age2 percent age1, we get 6, and for age1 percent age2, we get 12. Therefore, when you divide age2 by age1, the remainder is 6, and vice versa, the remainder is 12. These arithmetic operations become especially useful when programming real-world applications. For instance, consider an application that calculates the total amount you have to pay after adding various costs, or an application that calculates the average rating from different user scores. Both these applications could use arithmetic operations. After understanding arithmetic operators, let's shift our attention to strings. We're already acquainted with strings. We've seen how to create sentences using print statements, like print hello world. The content inside those quotation marks are strings. Let's take an example where the string is, today was a beautiful day. Here, sent1 is a string, and the data type, just like age1 and age2 are integers, sent1 would be a string. Strings are text or characters enclosed within quotation marks. Similar to how we used arithmetic operators with integers, we can use some of them with strings as well. For instance, let's say we have a first name and a last name, and we want to concatenate them to form a full name. Let's try doing that. Assuming the first name is Avi and the last name is Jane, we want to concatenate these two to get the full name. Just like we did age1 plus age2 for integers, we can do first name plus last name for strings. The output will be Avi Jane. However, to make it look more natural, we might want to insert a space between the first and last name. We can accomplish this by adding a space character like this. First name plus, and then in quotation marks, a space plus last name. The output now is Avi Jane. While we can use the addition operator for string concatenation, subtraction doesn't apply to strings. If you try executing first name minus last name, you'll encounter an error. Although you can multiply a string by an integer, if you want to print high ten times, you can execute high times ten, which will repeat high ten times. So, in conclusion, we can use addition for concatenation and multiplication for repetition with strings. Division and modulus and subtraction are not applicable with strings. I'll wrap this up with an important feature of Python, which is called slicing. Let's consider the sentence, Avi was playing basketball. Here, we're interested only in the name Avi. Each character in a string in Python has an index, which begins from zero. So, A is at index zero, B is at index one, and so on. If we want to get the character at index zero, we do sentence and then in square brackets, zero, which returns A. To get a range of characters, we can use slicing. To get Avi, we'll use sentence and then in square brackets, you specify a range by specifying the initial index and then the end index exclusively. And in between the two indexes, there's a colon. So, sentence, zero, colon, three. But you might wonder why the index here is three when Avi only has three characters, i.e. indices from zero, one, and two. In Python, the last index in the slice is exclusive. So, sentence, zero to three, actually gives us the characters from indices zero to two. That's it for arithmetic operators and strings today. Today, we covered how to use arithmetic operators, apply them to integers and strings, and also introduce slicing in Python. These concepts are fundamental and will be incredibly handy as we move forward in our Python journey. Thanks so much for listening, guys, and I'll see you in the next video."
+}

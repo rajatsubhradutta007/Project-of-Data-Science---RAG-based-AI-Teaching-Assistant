@@ -1,0 +1,383 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Hey guys, Avi here, and welcome back to our Python programming series."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 5.0,
+            "end": 10.0,
+            "text": " Today, we're going to dive into the fundamentals of Python, which is variables."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 10.0,
+            "end": 16.0,
+            "text": " Understanding variables is vital to programming because they help store and manage data within our programs."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 16.0,
+            "end": 18.0,
+            "text": " So what exactly is a variable?"
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 18.0,
+            "end": 23.0,
+            "text": " You can think of it as a storage box where you can keep different kinds of data."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 23.0,
+            "end": 26.0,
+            "text": " Imagine you have a friend who's turning 20 years old."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 26.0,
+            "end": 29.0,
+            "text": " You can store that number 20 in a variable."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 29.0,
+            "end": 33.0,
+            "text": " Or let's say you want to store a piece of text like, my name is Avi."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 33.0,
+            "end": 36.0,
+            "text": " You can put that sentence or string in a variable."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 36.0,
+            "end": 39.0,
+            "text": " The process of creating a variable in Python is straightforward."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 39.0,
+            "end": 42.0,
+            "text": " You start by choosing a name for your variable."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 42.0,
+            "end": 45.0,
+            "text": " Let's go back to our friend who's turning 20."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 45.0,
+            "end": 47.0,
+            "text": " We'll create a variable named age."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 47.0,
+            "end": 51.0,
+            "text": " Then you can use an equal sign to assign a value to your variable."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 51.0,
+            "end": 54.0,
+            "text": " So age equals 20."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 54.0,
+            "end": 56.0,
+            "text": " Now age holds the value 20."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 56.0,
+            "end": 61.0,
+            "text": " When you want to use that value later on in your code, all you need to do is refer to age."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 61.0,
+            "end": 64.0,
+            "text": " But what about our sentence? My name is Avi."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 64.0,
+            "end": 69.0,
+            "text": " In Python, we can store text data or strings in a variable."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 69.0,
+            "end": 73.0,
+            "text": " For example, we can create a variable called sentence and assign it our text."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 73.0,
+            "end": 76.0,
+            "text": " Sentence equals my name is Avi."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 76.0,
+            "end": 80.0,
+            "text": " That string, my name is Avi, is denoted by quotation marks."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 80.0,
+            "end": 83.0,
+            "text": " And now the variable sentence holds that string."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 83.0,
+            "end": 85.0,
+            "text": " Variables are incredibly useful."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 85.0,
+            "end": 90.0,
+            "text": " They allow us to manipulate data in many ways, but that's something we'll explore further in future discussions."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 90.0,
+            "end": 94.0,
+            "text": " For now, I just want you to understand how to create these variables."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 94.0,
+            "end": 97.0,
+            "text": " One of Python's nifty features is multiple assignment."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 97.0,
+            "end": 101.0,
+            "text": " This allows us to assign values to multiple variables at once."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 101.0,
+            "end": 104.0,
+            "text": " Let's say we have several friends celebrating birthdays."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 104.0,
+            "end": 109.0,
+            "text": " Sarah is turning 16, Bob is turning 21, Mike is turning 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 109.0,
+            "end": 114.0,
+            "text": " Instead of creating a new variable for each friend, we can use multiple assignment like so."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 114.0,
+            "end": 123.0,
+            "text": " Sarah, Bob, Mike is equal to and then each of their respective ages, 16, 21, 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 123.0,
+            "end": 128.0,
+            "text": " Now Sarah holds the value 16, Bob holds 21, and Mike holds 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 128.0,
+            "end": 135.0,
+            "text": " Another scenario where multiple assignment is handy is when you want to assign the same value to multiple variables."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 135.0,
+            "end": 139.0,
+            "text": " Say Sarah, Bob, and Mike are all turning 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 139.0,
+            "end": 145.0,
+            "text": " You can assign the shared value by using Sarah equals Bob equals Mike equals 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 145.0,
+            "end": 149.0,
+            "text": " Now all three variables hold the value 17."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 149.0,
+            "end": 152.0,
+            "text": " You might be thinking that's nice, but how is this useful in real life?"
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 152.0,
+            "end": 156.0,
+            "text": " Well, imagine you're a teacher with a list of students scores from a recent test."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 156.0,
+            "end": 161.0,
+            "text": " You could use variables to store each student's score and then calculate class statistics."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 161.0,
+            "end": 165.0,
+            "text": " Or perhaps you're building a social media app where each user has a profile."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 165.0,
+            "end": 170.0,
+            "text": " You could use variables to store a user's details like their name, age, and location."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 170.0,
+            "end": 175.0,
+            "text": " Knowing how to use variables gives you the power to build complex and interesting applications."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 175.0,
+            "end": 178.0,
+            "text": " Now let's see if you can apply what we've just learned."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 178.0,
+            "end": 183.0,
+            "text": " Try to create two variables in one line, one for your name and another for your age."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 183.0,
+            "end": 189.0,
+            "text": " Remember, your name should be a string that is in quotation marks, so don't forget to add quotes."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 189.0,
+            "end": 191.0,
+            "text": " Hopefully you managed to do it."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 191.0,
+            "end": 194.0,
+            "text": " If not, no worries. We're just getting started."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 194.0,
+            "end": 195.0,
+            "text": " Here's what your code might look like."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 195.0,
+            "end": 199.0,
+            "text": " Name comma age is equal to Avi comma 22."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 199.0,
+            "end": 205.0,
+            "text": " To check the value stored in name and age, you can simply refer to the variables."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 205.0,
+            "end": 209.0,
+            "text": " Today, we've covered some fundamental concepts, understanding what variables are,"
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 209.0,
+            "end": 214.0,
+            "text": " how to create and assign them, and how to assign multiple variables at once."
+        },
+        {
+            "number": "2",
+            "title": "Lect",
+            "start": 214.0,
+            "end": 219.0,
+            "text": " That's it for this video, guys. Thanks so much for listening, and I'll see you in the next video."
+        }
+    ],
+    "text": " Hey guys, Avi here, and welcome back to our Python programming series. Today, we're going to dive into the fundamentals of Python, which is variables. Understanding variables is vital to programming because they help store and manage data within our programs. So what exactly is a variable? You can think of it as a storage box where you can keep different kinds of data. Imagine you have a friend who's turning 20 years old. You can store that number 20 in a variable. Or let's say you want to store a piece of text like, my name is Avi. You can put that sentence or string in a variable. The process of creating a variable in Python is straightforward. You start by choosing a name for your variable. Let's go back to our friend who's turning 20. We'll create a variable named age. Then you can use an equal sign to assign a value to your variable. So age equals 20. Now age holds the value 20. When you want to use that value later on in your code, all you need to do is refer to age. But what about our sentence? My name is Avi. In Python, we can store text data or strings in a variable. For example, we can create a variable called sentence and assign it our text. Sentence equals my name is Avi. That string, my name is Avi, is denoted by quotation marks. And now the variable sentence holds that string. Variables are incredibly useful. They allow us to manipulate data in many ways, but that's something we'll explore further in future discussions. For now, I just want you to understand how to create these variables. One of Python's nifty features is multiple assignment. This allows us to assign values to multiple variables at once. Let's say we have several friends celebrating birthdays. Sarah is turning 16, Bob is turning 21, Mike is turning 17. Instead of creating a new variable for each friend, we can use multiple assignment like so. Sarah, Bob, Mike is equal to and then each of their respective ages, 16, 21, 17. Now Sarah holds the value 16, Bob holds 21, and Mike holds 17. Another scenario where multiple assignment is handy is when you want to assign the same value to multiple variables. Say Sarah, Bob, and Mike are all turning 17. You can assign the shared value by using Sarah equals Bob equals Mike equals 17. Now all three variables hold the value 17. You might be thinking that's nice, but how is this useful in real life? Well, imagine you're a teacher with a list of students scores from a recent test. You could use variables to store each student's score and then calculate class statistics. Or perhaps you're building a social media app where each user has a profile. You could use variables to store a user's details like their name, age, and location. Knowing how to use variables gives you the power to build complex and interesting applications. Now let's see if you can apply what we've just learned. Try to create two variables in one line, one for your name and another for your age. Remember, your name should be a string that is in quotation marks, so don't forget to add quotes. Hopefully you managed to do it. If not, no worries. We're just getting started. Here's what your code might look like. Name comma age is equal to Avi comma 22. To check the value stored in name and age, you can simply refer to the variables. Today, we've covered some fundamental concepts, understanding what variables are, how to create and assign them, and how to assign multiple variables at once. That's it for this video, guys. Thanks so much for listening, and I'll see you in the next video."
+}

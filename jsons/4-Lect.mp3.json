@@ -1,0 +1,481 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 0.0,
+            "end": 6.92,
+            "text": " Hey guys, Avi here, and welcome back to our series on Python programming."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 6.92,
+            "end": 10.92,
+            "text": " Last video we dived into integers, strings, and variables, but today we're going to explore"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 10.92,
+            "end": 15.24,
+            "text": " a fundamental concept in Python known as placeholders."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 15.24,
+            "end": 19.68,
+            "text": " Before we dive into technicalities, let's understand the importance of placeholders"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 19.68,
+            "end": 22.400000000000002,
+            "text": " in real world applications."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 22.400000000000002,
+            "end": 26.5,
+            "text": " Imagine you're designing an automated email system that sends out personalized messages"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 26.5,
+            "end": 28.400000000000002,
+            "text": " to each recipient."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 28.4,
+            "end": 33.339999999999996,
+            "text": " You can't possibly write a unique message for thousands of users, right?"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 33.339999999999996,
+            "end": 35.94,
+            "text": " This is where placeholders come in handy."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 35.94,
+            "end": 41.06,
+            "text": " You can create a generic message with placeholders for names or any other specific details, and"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 41.06,
+            "end": 45.58,
+            "text": " Python will automatically fill in these placeholders with the actual data."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 45.58,
+            "end": 50.739999999999995,
+            "text": " This kind of automation saves time, reduces errors, and makes your code more reusable"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 50.739999999999995,
+            "end": 52.26,
+            "text": " and efficient."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 52.26,
+            "end": 54.26,
+            "text": " Now to the technical part."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 54.26,
+            "end": 58.86,
+            "text": " A placeholder is essentially a marker that stands in for some value."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 58.86,
+            "end": 62.059999999999995,
+            "text": " To illustrate, let's say I have a friend named Jake."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 62.059999999999995,
+            "end": 65.02,
+            "text": " So I declare a variable name equals Jake."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 65.02,
+            "end": 70.22,
+            "text": " If I want to form a sentence Jake is 15 years old, I can concatenate like this."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 70.22,
+            "end": 74.7,
+            "text": " Name plus and then in a string is 15 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 74.7,
+            "end": 78.97999999999999,
+            "text": " It works, and we indeed get Jake is 15 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 78.97999999999999,
+            "end": 83.22,
+            "text": " But there's a more elegant way of doing this using placeholders."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 83.22,
+            "end": 88.36,
+            "text": " We use placeholders within a string to indicate that the placeholder should be replaced with"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 88.36,
+            "end": 91.1,
+            "text": " a specific variable value."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 91.1,
+            "end": 97.53999999999999,
+            "text": " So let's create this variable sentence and set it to %s is 15 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 97.53999999999999,
+            "end": 100.62,
+            "text": " Here %s is a placeholder for a string."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 100.62,
+            "end": 104.58,
+            "text": " If we print sentence, we get %s is 15 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 104.58,
+            "end": 111.06,
+            "text": " But if we apply the placeholder syntax, for example, by saying print and then sentence"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 111.58,
+            "end": 117.62,
+            "text": " %name, %s is replaced with Jake, giving us Jake is 15 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 117.62,
+            "end": 119.3,
+            "text": " That's beautiful."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 119.3,
+            "end": 121.78,
+            "text": " Placeholders aren't limited to a single value."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 121.78,
+            "end": 128.26,
+            "text": " Let's declare sentence is equal to %s %s was the president of the United States."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 128.26,
+            "end": 135.38,
+            "text": " Using the placeholder syntax, sentence % and then in brackets, Barack, Obama, we can replace"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 135.38,
+            "end": 140.56,
+            "text": " both placeholders and get Barack Obama was the president of the United States."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 140.56,
+            "end": 144.44,
+            "text": " You can see how placeholders make our code more readable and efficient."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 144.44,
+            "end": 147.2,
+            "text": " Now what if we wanted to include integers?"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 147.2,
+            "end": 149.28,
+            "text": " We can use %d for that."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 149.28,
+            "end": 154.68,
+            "text": " So if I wanted to say x is y years old and provide both the person's name and age, I"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 154.68,
+            "end": 158.92000000000002,
+            "text": " could write %s is %d years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 158.92000000000002,
+            "end": 162.66,
+            "text": " Here %s is for the string and %d is for the integer."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 162.66,
+            "end": 169.8,
+            "text": " If I input sentence %avi, 23, we get Avi is 23 years old."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 169.8,
+            "end": 171.96,
+            "text": " That's the essence of placeholders."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 171.96,
+            "end": 176.44,
+            "text": " They are markers within strings or variables that are later replaced by actual values."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 176.44,
+            "end": 180.24,
+            "text": " They're incredibly versatile and useful in many scenarios."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 180.24,
+            "end": 184.04000000000002,
+            "text": " To recap, placeholders are created using percent signs."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 184.04000000000002,
+            "end": 188.12,
+            "text": " %s stands for a string and %d stands for an integer."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 188.12,
+            "end": 191.8,
+            "text": " While we're on the subject of placeholders, though, it's worth mentioning another powerful"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 191.8,
+            "end": 198.28,
+            "text": " feature of Python for handling strings, which is format strings, often called F strings."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 198.28,
+            "end": 203.7,
+            "text": " This is a newer method introduced in Python 3.6 and is arguably the most straightforward"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 203.7,
+            "end": 205.56,
+            "text": " way to format strings."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 205.56,
+            "end": 208.28,
+            "text": " The F string syntax is quite simple."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 208.28,
+            "end": 213.76,
+            "text": " Just prefix your string with the letter lowercase F or capital F, and then within your string,"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 213.76,
+            "end": 217.88,
+            "text": " you can directly include your variables enclosed in curly braces."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 217.88,
+            "end": 222.8,
+            "text": " For instance, if we have a variable name equals Avi, we can print a greeting message using"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 222.8,
+            "end": 224.60000000000002,
+            "text": " an F string like so."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 224.60000000000002,
+            "end": 230.48000000000002,
+            "text": " F and then in quotation marks, hello, comma, and then in curly brackets, name."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 230.48000000000002,
+            "end": 233.32000000000002,
+            "text": " When we run this code, we'll get hello Avi."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 233.32000000000002,
+            "end": 238.12,
+            "text": " This approach brings a lot of flexibility and simplicity to string formatting in Python."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 238.12,
+            "end": 242.24,
+            "text": " And one of the most convenient things about F strings is that you can use expressions"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 242.24,
+            "end": 244.36,
+            "text": " inside the curly braces."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 244.36,
+            "end": 249.32000000000002,
+            "text": " So if we have the two variables, x equals 10 and y equals 20, we can compute their sum"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 249.32000000000002,
+            "end": 251.18,
+            "text": " within an F string."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 251.18,
+            "end": 256.82,
+            "text": " We can say print F and then in quotation marks, the sum of x and y is, and then in"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 256.82,
+            "end": 259.22,
+            "text": " curly brackets, x plus y."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 259.22,
+            "end": 264.1,
+            "text": " If we execute this code, we get the sum of x and y is 30."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 264.1,
+            "end": 269.78000000000003,
+            "text": " So in essence, F strings provide a concise, readable way to include the values of variables"
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 269.78000000000003,
+            "end": 275.06,
+            "text": " in strings, and they're highly recommended if you're using Python 3.6 or later."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 275.06,
+            "end": 276.62,
+            "text": " That's it for placeholders, guys."
+        },
+        {
+            "number": "4",
+            "title": "Lect",
+            "start": 276.62,
+            "end": 278.82,
+            "text": " Thanks so much for listening, and I'll see you in the next video."
+        }
+    ],
+    "text": " Hey guys, Avi here, and welcome back to our series on Python programming. Last video we dived into integers, strings, and variables, but today we're going to explore a fundamental concept in Python known as placeholders. Before we dive into technicalities, let's understand the importance of placeholders in real world applications. Imagine you're designing an automated email system that sends out personalized messages to each recipient. You can't possibly write a unique message for thousands of users, right? This is where placeholders come in handy. You can create a generic message with placeholders for names or any other specific details, and Python will automatically fill in these placeholders with the actual data. This kind of automation saves time, reduces errors, and makes your code more reusable and efficient. Now to the technical part. A placeholder is essentially a marker that stands in for some value. To illustrate, let's say I have a friend named Jake. So I declare a variable name equals Jake. If I want to form a sentence Jake is 15 years old, I can concatenate like this. Name plus and then in a string is 15 years old. It works, and we indeed get Jake is 15 years old. But there's a more elegant way of doing this using placeholders. We use placeholders within a string to indicate that the placeholder should be replaced with a specific variable value. So let's create this variable sentence and set it to %s is 15 years old. Here %s is a placeholder for a string. If we print sentence, we get %s is 15 years old. But if we apply the placeholder syntax, for example, by saying print and then sentence %name, %s is replaced with Jake, giving us Jake is 15 years old. That's beautiful. Placeholders aren't limited to a single value. Let's declare sentence is equal to %s %s was the president of the United States. Using the placeholder syntax, sentence % and then in brackets, Barack, Obama, we can replace both placeholders and get Barack Obama was the president of the United States. You can see how placeholders make our code more readable and efficient. Now what if we wanted to include integers? We can use %d for that. So if I wanted to say x is y years old and provide both the person's name and age, I could write %s is %d years old. Here %s is for the string and %d is for the integer. If I input sentence %avi, 23, we get Avi is 23 years old. That's the essence of placeholders. They are markers within strings or variables that are later replaced by actual values. They're incredibly versatile and useful in many scenarios. To recap, placeholders are created using percent signs. %s stands for a string and %d stands for an integer. While we're on the subject of placeholders, though, it's worth mentioning another powerful feature of Python for handling strings, which is format strings, often called F strings. This is a newer method introduced in Python 3.6 and is arguably the most straightforward way to format strings. The F string syntax is quite simple. Just prefix your string with the letter lowercase F or capital F, and then within your string, you can directly include your variables enclosed in curly braces. For instance, if we have a variable name equals Avi, we can print a greeting message using an F string like so. F and then in quotation marks, hello, comma, and then in curly brackets, name. When we run this code, we'll get hello Avi. This approach brings a lot of flexibility and simplicity to string formatting in Python. And one of the most convenient things about F strings is that you can use expressions inside the curly braces. So if we have the two variables, x equals 10 and y equals 20, we can compute their sum within an F string. We can say print F and then in quotation marks, the sum of x and y is, and then in curly brackets, x plus y. If we execute this code, we get the sum of x and y is 30. So in essence, F strings provide a concise, readable way to include the values of variables in strings, and they're highly recommended if you're using Python 3.6 or later. That's it for placeholders, guys. Thanks so much for listening, and I'll see you in the next video."
+}
